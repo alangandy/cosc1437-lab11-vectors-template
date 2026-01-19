@@ -1,0 +1,114 @@
+{
+  "tests": [
+    {
+      "name": "Compilation",
+      "setup": "",
+      "run": "g++ -std=c++17 -o grade_calc main.cpp greeting.cpp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "greeting.h Header Guards",
+      "setup": "",
+      "run": "test -f greeting.h && grep -E \"#ifndef|#define|#endif\" greeting.h && echo \"Header guards found\"",
+      "input": "",
+      "output": "Header guards found",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 10
+    },
+    {
+      "name": "Time-Based Greeting",
+      "setup": "",
+      "run": "grep -E \"(ctime|time|hour|morning|afternoon|evening)\" greeting.cpp && echo \"Time logic found\"",
+      "input": "",
+      "output": "Time logic found",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 10
+    },
+    {
+      "name": "Program Executes",
+      "setup": "g++ -std=c++17 -o grade_calc main.cpp greeting.cpp",
+      "run": "echo -e \"1000\\n900\\n800\\n700\\n600\\n-1\" | timeout 10 ./grade_calc",
+      "input": "",
+      "output": "Welcome",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 10
+    },
+    {
+      "name": "Grading Scheme Input",
+      "setup": "g++ -std=c++17 -o grade_calc main.cpp greeting.cpp",
+      "run": "echo -e \"1000\\n900\\n800\\n700\\n600\\n-1\" | ./grade_calc",
+      "input": "",
+      "output": "90%",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 10
+    },
+    {
+      "name": "Vector Library",
+      "setup": "",
+      "run": "grep -E \"#include\\s*<vector>\" main.cpp && echo \"Vector included\"",
+      "input": "",
+      "output": "Vector included",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 10
+    },
+    {
+      "name": "Vector Declaration",
+      "setup": "",
+      "run": "grep -E \"std::vector\\s*<\\s*(float|double|int)\" main.cpp && echo \"Vector declared\"",
+      "input": "",
+      "output": "Vector declared",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Vector push_back",
+      "setup": "",
+      "run": "grep -E \"push_back\" main.cpp && echo \"push_back found\"",
+      "input": "",
+      "output": "push_back found",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Score Storage and Display",
+      "setup": "g++ -std=c++17 -o grade_calc main.cpp greeting.cpp",
+      "run": "echo -e \"1000\\n900\\n800\\n700\\n600\\n95\\n88\\n92\\n-1\" | ./grade_calc",
+      "input": "",
+      "output": "Assignment 1: 95",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 10
+    },
+    {
+      "name": "Final Grade Displayed",
+      "setup": "g++ -std=c++17 -o grade_calc main.cpp greeting.cpp",
+      "run": "echo -e \"1000\\n900\\n800\\n700\\n600\\n95\\n88\\n92\\n-1\" | ./grade_calc",
+      "input": "",
+      "output": "Final Letter Grade:",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 10
+    },
+    {
+      "name": "A Grade Calculation",
+      "setup": "g++ -std=c++17 -o grade_calc main.cpp greeting.cpp",
+      "run": "echo -e \"100\\n90\\n80\\n70\\n60\\n95\\n-1\" | ./grade_calc",
+      "input": "",
+      "output": "A",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 10
+    }
+  ]
+}
