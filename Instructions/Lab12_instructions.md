@@ -1,5 +1,15 @@
 # Lab 12: STL Algorithms
 
+## Getting Started
+
+> **Important:** This lab builds on your work from Lab 11.
+> 
+> Continue working in your **existing repository** from Lab 11. Do NOT create a new repository.
+> 
+> Your Lab 11 submission becomes the starting point for this lab.
+
+---
+
 ## Objective
 
 - Learn to use the `<algorithm>` library
