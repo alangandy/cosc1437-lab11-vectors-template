@@ -1,5 +1,15 @@
 # Lab 14: Creating Custom Objects
 
+## Getting Started
+
+> **Important:** This lab builds on your work from Lab 13.
+> 
+> Continue working in your **existing repository** from Lab 13. Do NOT create a new repository.
+> 
+> Your Lab 13 submission becomes the starting point for this lab.
+
+---
+
 ## Objective
 
 - Learn to define custom classes in C++
