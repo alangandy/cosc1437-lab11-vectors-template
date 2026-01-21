@@ -1,5 +1,15 @@
 # Lab 18: Input Validation and Error Handling
 
+## Getting Started
+
+> **Important:** This lab builds on your work from Lab 17.
+> 
+> Continue working in your **existing repository** from Lab 17. Do NOT create a new repository.
+> 
+> Your Lab 17 submission becomes the starting point for this lab.
+
+---
+
 ## Objective
 
 - Learn to validate user input in C++
