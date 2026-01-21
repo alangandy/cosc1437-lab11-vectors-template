@@ -1,5 +1,15 @@
 # Lab 13: File Storage with Streams
 
+## Getting Started
+
+> **Important:** This lab builds on your work from Lab 12.
+> 
+> Continue working in your **existing repository** from Lab 12. Do NOT create a new repository.
+> 
+> Your Lab 12 submission becomes the starting point for this lab.
+
+---
+
 ## Objective
 
 - Learn to use file streams (`std::ifstream` and `std::ofstream`)
