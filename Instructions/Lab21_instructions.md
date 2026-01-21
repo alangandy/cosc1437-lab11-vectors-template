@@ -1,5 +1,15 @@
 # Lab 21: Associative Containers with std::map
 
+## Getting Started
+
+> **Important:** This lab builds on your work from Lab 20.
+> 
+> Continue working in your **existing repository** from Lab 20. Do NOT create a new repository.
+> 
+> Your Lab 20 submission becomes the starting point for this lab.
+
+---
+
 ## Objective
 
 - Learn to use `std::map` for key-value storage
