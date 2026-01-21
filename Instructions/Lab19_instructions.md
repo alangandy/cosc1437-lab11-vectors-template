@@ -1,5 +1,15 @@
 # Lab 19: Generic Programming with Templates
 
+## Getting Started
+
+> **Important:** This lab builds on your work from Lab 18.
+> 
+> Continue working in your **existing repository** from Lab 18. Do NOT create a new repository.
+> 
+> Your Lab 18 submission becomes the starting point for this lab.
+
+---
+
 ## Objective
 
 - Learn function templates in C++
