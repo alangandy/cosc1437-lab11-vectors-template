@@ -1,5 +1,15 @@
 # Lab 16: Building a Menu-Driven Interface
 
+## Getting Started
+
+> **Important:** This lab builds on your work from Lab 15.
+> 
+> Continue working in your **existing repository** from Lab 15. Do NOT create a new repository.
+> 
+> Your Lab 15 submission becomes the starting point for this lab.
+
+---
+
 ## Objective
 
 - Create a professional menu system using loops
