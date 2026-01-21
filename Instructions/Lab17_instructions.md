@@ -1,5 +1,15 @@
 # Lab 17: Inheritance and Weighted Grades
 
+## Getting Started
+
+> **Important:** This lab builds on your work from Lab 16.
+> 
+> Continue working in your **existing repository** from Lab 16. Do NOT create a new repository.
+> 
+> Your Lab 16 submission becomes the starting point for this lab.
+
+---
+
 ## Objective
 
 - Learn class inheritance in C++
