@@ -1,5 +1,15 @@
 # Lab 15: Fine-Tuning Objects
 
+## Getting Started
+
+> **Important:** This lab builds on your work from Lab 14.
+> 
+> Continue working in your **existing repository** from Lab 14. Do NOT create a new repository.
+> 
+> Your Lab 14 submission becomes the starting point for this lab.
+
+---
+
 ## Objective
 
 - Separate class declarations from implementations
