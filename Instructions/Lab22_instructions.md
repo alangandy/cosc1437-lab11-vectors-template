@@ -1,5 +1,15 @@
 # Lab 22: Exception Handling - Final Application
 
+## Getting Started
+
+> **Important:** This lab builds on your work from Lab 21.
+> 
+> Continue working in your **existing repository** from Lab 21. Do NOT create a new repository.
+> 
+> Your Lab 21 submission becomes the starting point for this lab.
+
+---
+
 ## Objective
 
 - Learn exception handling with try-catch blocks
