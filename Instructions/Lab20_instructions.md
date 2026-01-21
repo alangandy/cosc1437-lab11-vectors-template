@@ -1,5 +1,15 @@
 # Lab 20: STL Algorithms and Lambda Functions
 
+## Getting Started
+
+> **Important:** This lab builds on your work from Lab 19.
+> 
+> Continue working in your **existing repository** from Lab 19. Do NOT create a new repository.
+> 
+> Your Lab 19 submission becomes the starting point for this lab.
+
+---
+
 ## Objective
 
 - Learn lambda function syntax in C++
